@@ -4,19 +4,11 @@
     box-sizing: border-box;
 }
 
-:root {
-    --canvas-color: #141414;
-    --card-color: #FFEDF3;
-    --accent-color: #3A141F;
-    --primary-text-color: #724252;
-    --primary-text-color-light: #AA8792;
-    --secondary-text-color: #EECFD9;
-}
-
 body {
     font-family: "DM Sans", "Inter", sans-serif;
-    background-color: var(--canvas-color);
+    background-color: #141414;
 }
+
 
 .statistics h1 {
     font-size: 50px;
@@ -36,7 +28,7 @@ body {
 }
 
 .player-info {
-    padding: 4rem 0 0 2.75rem;
+    padding: 3rem 0 0 2.75rem;
     display: flex;
     flex-grow: 1;
     flex-shrink: 1;
@@ -119,6 +111,7 @@ body {
 .container>* {
     margin: 300px auto;
     margin-right: 750px;
+    top: 100px;
 }
 
 .player2 {
@@ -217,7 +210,7 @@ body {
     margin: 300px auto;
     margin-right: 5px;
     position: absolute;
-    top: 0;
+    top: 90px;
     right: 50px;
 }
 
@@ -310,6 +303,13 @@ body {
     right: 1.25rem;
     bottom: 1.25rem;
     position: absolute;
+}
+
+.container3>* {
+    margin: 300px auto;
+    position: absolute;
+    top: 90px;
+    right: -1375px;
 }
 
 .player4 {
@@ -405,8 +405,121 @@ body {
 
 .container4>* {
     margin: 300px auto;
-    margin-right: 5px;
     position: absolute;
-    top: 530px;
-    right: 50px;
+    top: 90px;
+    right: -650px;
+}
+
+.player5 {
+    width: 650px;
+    height: 230px;
+    border-radius: 30px;
+    box-shadow: 0 15px 30px rgba(58, 20, 31, 0.1);
+    position: relative;
+    background-color: #e3c800;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.player-info5 {
+    padding: 4rem 0 0 2.75rem;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: relative;
+}
+
+.player-name5 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.player-team5 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #039c22;
+    display: block;
+    margin-bottom: 1130px;
+    text-transform: uppercase;
+}
+
+.player-stats5 {
+    border-radius: 20px;
+    background-color: #039c22;
+    box-shadow: 15px 15px 30px rgba(58, 20, 31, 0.1);
+    width: 350px;
+    position: absolute;
+    left: -40px;
+    bottom: -30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+}
+
+.player-stat5 {
+    font-size: 0.75rem;
+    color: #e3c800;
+    text-transform: uppercase;
+}
+
+.player-stat-number5 {
+    margin-top: 0.375rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #e3c800;
+}
+
+.player-image5 {
+    display: flex;
+    position: relative;
+    width: 250px;
+}
+
+.player-image5 img {
+    display: block;
+    position: absolute;
+    width: 300px;
+    left: -80px;
+    bottom: 0;
+}
+
+.captain-badge5 {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-radius: 45%;
+    font-weight: 700;
+    color: #039c22;
+    box-shadow: 3px 5px 10px 0 rgba(58, 20, 31, 0.15);
+    right: 1.25rem;
+    bottom: 1.25rem;
+    position: absolute;
+}
+
+.container5>* {
+    margin: 300px auto;
+    position: absolute;
+    top: 90px;
+    right: -2100px;
+}
+
+.player,
+.player2,
+.player3,
+.player4,
+.player5 {
+    transition: transform 0.3s ease;
+}
+
+.player:hover,
+.player2:hover,
+.player3:hover,
+.player4:hover,
+.player5:hover {
+    transform: scale(1.05);
 }
