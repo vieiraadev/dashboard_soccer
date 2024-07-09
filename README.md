@@ -24,3 +24,6 @@ Crie uma nova branch: git checkout -b minha-nova-funcionalidade.<br>
 Faça suas alterações e commit: git commit -m 'Adiciona nova funcionalidade'.<br>
 Envie para a branch original: git push origin minha-nova-funcionalidade.<br>
 Crie uma pull request.<br>
+
+
+![image](https://github.com/vieiraadev/football_player_cards/assets/164572708/b8f046a5-74a3-41e4-b730-b8ad9b7cc667)
