@@ -5,7 +5,7 @@
 }
 
 :root {
-    --canvas-color: #F2E0E6;
+    --canvas-color: #141414;
     --card-color: #FFEDF3;
     --accent-color: #3A141F;
     --primary-text-color: #724252;
@@ -18,13 +18,19 @@ body {
     background-color: var(--canvas-color);
 }
 
+.statistics h1 {
+    font-size: 50px;
+    margin-left: 510px;
+    color: #FFF;
+}
+
 .player {
     width: 650px;
     height: 230px;
     border-radius: 30px;
     box-shadow: 0 15px 30px rgba(58, 20, 31, 0.1);
     position: relative;
-    background-color: var(--card-color);
+    background-color: #347494;
     display: flex;
     flex-shrink: 1;
 }
@@ -40,13 +46,13 @@ body {
 .player-name {
     font-size: 3.5rem;
     font-weight: 700;
-    color: var(--primary-text-color);
+    color: #0b8770;
 }
 
 .player-team {
     font-size: 1.125rem;
     font-weight: 400;
-    color: var(--primary-text-color-light);
+    color: #2c9fa3;
     display: block;
     margin-bottom: 1130px;
     text-transform: uppercase;
@@ -54,7 +60,7 @@ body {
 
 .player-stats {
     border-radius: 20px;
-    background-color: var(--accent-color);
+    background-color: #f3f3f3;
     box-shadow: 15px 15px 30px rgba(58, 20, 31, 0.1);
     width: 350px;
     position: absolute;
@@ -67,15 +73,15 @@ body {
 
 .player-stat {
     font-size: 0.75rem;
-    color: var(--secondary-text-color);
+    color: #2c9fa3;
     text-transform: uppercase;
 }
 
 .player-stat-number {
     margin-top: 0.375rem;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     font-weight: 700;
-    color: var(--secondary-text-color);
+    color: #2c9fa3;
 }
 
 .player-image {
@@ -87,7 +93,7 @@ body {
 .player-image img {
     display: block;
     position: absolute;
-    width: 400px;
+    width: 300px;
     left: -80px;
     bottom: 0;
 }
@@ -109,9 +115,298 @@ body {
     position: absolute;
 }
 
-/* Codepen specific styling - only to center the elements in the pen preview and viewport */
+
 .container>* {
     margin: 300px auto;
+    margin-right: 750px;
 }
 
-/* End Codepen specific styling */
+.player2 {
+    width: 650px;
+    height: 230px;
+    border-radius: 30px;
+    box-shadow: 0 15px 30px rgba(58, 20, 31, 0.1);
+    position: relative;
+    background-color: #244caa;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.player-info2 {
+    padding: 4rem 0 0 2.75rem;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: relative;
+}
+
+.player-name2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ecbe13;
+}
+
+.player-team2 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #ecbe13;
+    display: block;
+    margin-bottom: 1130px;
+    text-transform: uppercase;
+}
+
+.player-stats2 {
+    border-radius: 20px;
+    background-color: #9d303d;
+    box-shadow: 15px 15px 30px rgba(58, 20, 31, 0.1);
+    width: 350px;
+    position: absolute;
+    left: -40px;
+    bottom: -30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+}
+
+.player-stat2 {
+    font-size: 0.75rem;
+    color: #ecbe13;
+    text-transform: uppercase;
+}
+
+.player-stat-number2 {
+    margin-top: 0.375rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #ecbe13;
+}
+
+.player-image2 {
+    display: flex;
+    position: relative;
+    width: 490px;
+}
+
+.player-image2 img {
+    display: block;
+    position: absolute;
+    width: 750px;
+    left: -70px;
+    bottom: 0;
+}
+
+.captain-badge2 {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-radius: 50%;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    box-shadow: 3px 5px 10px 0 rgba(58, 20, 31, 0.15);
+    right: 1.25rem;
+    bottom: 1.25rem;
+    position: absolute;
+}
+
+
+.container2>* {
+    margin: 300px auto;
+    margin-right: 5px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.player3 {
+    width: 650px;
+    height: 230px;
+    border-radius: 30px;
+    box-shadow: 0 15px 30px rgba(58, 20, 31, 0.1);
+    position: relative;
+    background-color: #2c3d69;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.player-info3 {
+    padding: 4rem 0 0 2.75rem;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: relative;
+}
+
+.player-name3 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ba4659;
+}
+
+.player-team3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #ba4659;
+    display: block;
+    margin-bottom: 1130px;
+    text-transform: uppercase;
+}
+
+.player-stats3 {
+    border-radius: 20px;
+    background-color: #381c27;
+    box-shadow: 15px 15px 30px rgba(58, 20, 31, 0.1);
+    width: 350px;
+    position: absolute;
+    left: -40px;
+    bottom: -30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+}
+
+.player-stat3 {
+    font-size: 0.75rem;
+    color: #ba4659;
+    text-transform: uppercase;
+}
+
+.player-stat-number3 {
+    margin-top: 0.375rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #ba4659;
+}
+
+.player-image3 {
+    display: flex;
+    position: relative;
+    width: 380px;
+}
+
+.player-image3 img {
+    display: block;
+    position: absolute;
+    width: 400px;
+    left: -80px;
+    bottom: 0;
+}
+
+.captain-badge3 {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-radius: 50%;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    box-shadow: 3px 5px 10px 0 rgba(58, 20, 31, 0.15);
+    right: 1.25rem;
+    bottom: 1.25rem;
+    position: absolute;
+}
+
+.player4 {
+    width: 650px;
+    height: 230px;
+    border-radius: 30px;
+    box-shadow: 0 15px 30px rgba(58, 20, 31, 0.1);
+    position: relative;
+    background-color: #8fd0fa;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.player-info4 {
+    padding: 4rem 0 0 2.75rem;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: relative;
+}
+
+.player-name4 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.player-team4 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    margin-bottom: 1130px;
+    text-transform: uppercase;
+}
+
+.player-stats4 {
+    border-radius: 20px;
+    background-color: #862937;
+    box-shadow: 15px 15px 30px rgba(58, 20, 31, 0.1);
+    width: 350px;
+    position: absolute;
+    left: -40px;
+    bottom: -30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+}
+
+.player-stat4 {
+    font-size: 0.75rem;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.player-stat-number4 {
+    margin-top: 0.375rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.player-image4 {
+    display: flex;
+    position: relative;
+    width: 290px;
+}
+
+.player-image4 img {
+    display: block;
+    position: absolute;
+    width: 350px;
+    left: -80px;
+    bottom: 0;
+}
+
+.captain-badge4 {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-radius: 50%;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    box-shadow: 3px 5px 10px 0 rgba(58, 20, 31, 0.15);
+    right: 1.25rem;
+    bottom: 1.25rem;
+    position: absolute;
+}
+
+.container4>* {
+    margin: 300px auto;
+    margin-right: 5px;
+    position: absolute;
+    top: 530px;
+    right: 50px;
+}
