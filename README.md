@@ -1,4 +1,3 @@
-Cards de Jogadores de Futebol
 
 Este projeto demonstra como criar cards de jogadores de futebol utilizando HTML e CSS. Cada card exibe a foto do jogador, o número de assistências, gols e partidas jogadas.
 
